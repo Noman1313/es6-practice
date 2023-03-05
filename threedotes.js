@@ -1,0 +1,13 @@
+const ages = [11, 12, 13, 14];
+const ages2 = [15, 16, 1, 18];
+const ages3 = [21, 22, 23, 20];
+const allAges = ages.concat(ages2).concat([13]).concat(ages3);
+const allAges2 = [...ages, ...ages2, 14, ...ages3];
+//console.log(allAges2);
+const business = 650;
+const minister= 450;
+const sochib = 350;
+//const maximum = Math.max(business, minister, sochib);
+const taksPoisa = [550, 450,604];
+const maximum = Math.max(...taksPoisa);
+console.log(maximum);
